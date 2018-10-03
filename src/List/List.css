@@ -1,0 +1,41 @@
+
+.listItemBlock{
+    display: flex;
+    justify-content: left;
+    height: 30px;
+    padding: 4px 5px;
+}
+
+.ItemContainer{
+    display: flex;
+    justify-content: left;
+}
+
+.item{
+    padding-left: 20px;
+}
+.Name{
+    width: 150px;
+}
+/* 
+.IndexNum{
+
+} */
+.btnIdx{
+    background: lightgray ;
+    border-radius: 50px;
+    height: 20px;
+    cursor: pointer;
+    top: -3px;
+}
+.pause , .comment , .rename , .delete {
+    cursor: pointer;
+    font-size: 13px;
+}
+.btnIdx:hover{
+    background: lightblue;
+}
+
+.Name{
+    font-size: 13px;
+}

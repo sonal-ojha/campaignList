@@ -1,0 +1,30 @@
+.campaign_conatiner{
+  display: flex;
+  justify-content: left;
+}
+
+.displayBlock{
+  display: flex;
+  padding: 30px 60px;
+  /* justify-content: center; */
+}
+
+.header{
+  font-size: 12px;
+  padding: 15px 20px;
+  background: lightskyblue;
+}
+.Block{
+  padding: 20px 40px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.contentList{
+  background-color: lightskyblue;
+  height: 28px;
+  width: 140px;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 3px;
+  cursor: pointer;
+}
